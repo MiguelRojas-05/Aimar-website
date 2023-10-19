@@ -1,0 +1,60 @@
+nav {
+  background-color: #101630;
+}
+nav div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: large;
+}
+nav div div ul li .nav-link {
+  color: #fff;
+}
+nav div div ul li .nav-link:hover {
+  color: #4f9cd4;
+}
+nav div div ul .first-button {
+  width: 100px;
+  height: auto;
+  border: none;
+  border-radius: 15px;
+  background-color: #4f9cd4;
+}
+nav div div ul .first-button:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+#home {
+  width: 100%;
+  height: 90.2vh;
+  background-color: #101630;
+  display: flex;
+  justify-content: center;
+}
+#home div {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#home div span {
+  color: rgb(201, 202, 202);
+  font-size: 40px;
+  font-weight: 500;
+}
+#home div h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+}
+#home div button {
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: #4f9cd4;
+}
+#home div button:hover {
+  color: #fff;
+  font-weight: bold;
+}/*# sourceMappingURL=estilos.css.map */
