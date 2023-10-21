@@ -14,7 +14,17 @@ $neutral-color:#fff;
         font-weight: bold;
     } 
 }
+@mixin section(){
+    width: 100%;
+    height: 90.2vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: $primary-color;
 
+//----------------------------------------------------------------------------------
 nav {
     background-color: $primary-color;
   div {
@@ -43,11 +53,7 @@ nav {
  //----------------------------------------------
 
 #home{
-    width: 100%;
-    height: 90.2vh;
-    background-color: $primary-color;
-    display: flex;
-    justify-content: center;
+    @include section();
     div{
         width: 40%;
         display: flex;
@@ -71,3 +77,54 @@ nav {
    
 }
 //-------------------------------------------------------------------
+
+#sobreMi{
+    @include section();
+    div{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            color: $neutral-color;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        p{
+            color: $neutral-color;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        button{
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+            align-self: center;
+            border: 2px solid $secondary-color;
+            background: transparent;
+            color: $neutral-color;
+            transition: background-color 1s;
+            &:hover{
+                font-weight: 700;
+                background-color: $secondary-color;
+            }
+        }
+        div{
+            position: absolute;
+            width: 300px;
+            height: 400px;
+            align-self: end;
+            margin-right: 30px;
+            border: 3px $secondary-color solid;
+            border-radius: 300px;
+        }
+        img{
+         position: relative;
+         height: 80%;
+         object-fit: cover;
+        }
+    }
+}
+}
+
+//------------------------------------------------------------
