@@ -110,4 +110,79 @@ body #sobreMi div img {
   position: relative;
   height: 80%;
   object-fit: cover;
+}
+body #Portafolio {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  height: 250vh;
+  justify-content: space-around;
+}
+body #Portafolio h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+}
+body #Portafolio div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body #Portafolio div div {
+  display: block;
+  width: 35%;
+  height: 300px;
+  text-align: start;
+}
+body #Portafolio div div h3 {
+  font-weight: 300;
+  color: #4f9cd4;
+  margin-left: 30px;
+}
+body #Portafolio div div span {
+  margin-left: 30px;
+  font-size: 2rem;
+}
+body #Portafolio div div p {
+  width: 70%;
+  margin-left: 30px;
+}
+body #Portafolio div div .imgContainer {
+  width: 70%;
+  border-radius: 20px;
+  height: 200px;
+  overflow: hidden;
+  transform: translate(10%, 10%);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+body #Portafolio div div .imgContainer:hover {
+  transform: translate(4%, 20%);
+}
+body #Portafolio div div .imgContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+body #Portafolio div div .adornoimg {
+  position: absolute;
+  border: #4f9cd4 solid 10px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  transform: translate(4%, 20%);
+}
+body #Portafolio div div button {
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: #4f9cd4;
+  margin-left: 30px;
+}
+body #Portafolio div div button:hover {
+  color: #fff;
+  font-weight: bold;
 }/*# sourceMappingURL=estilos.css.map */
